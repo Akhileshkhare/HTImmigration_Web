@@ -7,14 +7,14 @@ const FreeEvaluation: React.FC = () => (
       <p className="text-[21px] text-gray-700 mb-4">HT Immigration Solutions offers a free, comprehensive evaluation of your eligibility for U.S. permanent residency or non-immigrant visa petitions. Our attorneys will review your case and respond within 24 business hours.</p>
       <h2 className="text-2xl font-bold text-[#0097b2] mt-8 mb-2">Who will benefit from a free evaluation?</h2>
       <ul className="list-disc pl-6 text-[20px] text-gray-800 mb-4">
-        <li>Anyone interested in a precise and comprehensive evaluation of their chance of obtaining U.S. permanent residency through employment-based petitions (EB-2, NIW, EB1-A, EB1-B).</li>
+        <li>Anyone interested in a precise and comprehensive evaluation of their chance of obtaining U.S. permanent residency through employment-based petitions (EB1-A, EB1-B,EB1-C,EB2-NIW).</li>
         <li>Anyone wondering if they are eligible for our Approval or Refund® Service Package.</li>
         <li>Anyone interested in knowing their chance of obtaining a petition-based non-immigrant visa (O-1).</li>
       </ul>
       <h2 className="text-2xl font-bold text-[#0097b2] mt-8 mb-2">How to request a free evaluation?</h2>
       <p className="text-[20px] text-gray-700 mb-2">Please submit your resume and basic information online. Click the button below to access our secure evaluation form:</p>
       <div className="my-4">
-        <a href="https://wenzo.wegreened.com/case_evaluation" target="_blank" rel="noopener noreferrer" className="inline-block bg-[#0097b2] text-white px-6 py-3 rounded shadow hover:bg-gray-700 font-semibold transition">Submit Free Evaluation Request</a>
+        <a href="#" target="_blank" rel="noopener noreferrer" className="inline-block bg-[#0097b2] text-white px-6 py-3 rounded shadow hover:bg-gray-700 font-semibold transition">Submit Free Evaluation Request</a>
       </div>
       <p className="text-[19px] text-gray-700 mb-2">If you already have an approved I-140 and are seeking guidance on I-485 adjustment of status, Immigrant Visa Processing (IVP), or a J waiver, please email us at <a href="mailto:info@htimmigrationsolutions.com" className="text-[#0097b2] underline">info@htimmigrationsolutions.com</a>.</p>
       <h2 className="text-2xl font-bold text-[#0097b2] mt-8 mb-2">What information should you send us?</h2>
@@ -35,11 +35,11 @@ const FreeEvaluation: React.FC = () => (
         <li>We do not charge any fee for the free evaluation or to answer questions about your case.</li>
         <li>If you wish to discuss your case with our attorneys, we are happy to schedule a time to talk after we provide the evaluation and determine that we are able to take your case.</li>
       </ul>
-      <div className="text-center mt-10">
+      {/* <div className="text-center mt-10">
         <a href="/contact_us" className="inline-block bg-[#0097b2] text-white px-6 py-3 rounded shadow hover:bg-gray-700 font-semibold transition">Contact Us</a>
         <span className="mx-2">or</span>
         <a href="/legal_fees_of_our_services" className="inline-block bg-white border border-[#0097b2] text-[#0097b2] px-6 py-3 rounded shadow hover:bg-gray-700 hover:text-white font-semibold transition">View Legal Fees</a>
-      </div>
+      </div> */}
     </div>
   </div>
 );

@@ -65,7 +65,7 @@ const NAV_LINKS = [
   //   ],
   // },
    { label: "Contact Us", to: "/contact_us" },
-   { label: "Admin Login", to: "/adminlogin" },
+   { label: "Client Login", to: "/userlogin" },
 ];
 
 const Navbar = () => {
@@ -88,7 +88,7 @@ const Navbar = () => {
         <div className="flex justify-between items-start pt-2">
           <div className="flex-shrink-0 flex flex-col items-center">
             <img className="h-20 w-auto" src="/logo.png" alt="Logo" />
-            <span className="text-sm text-gray-50 px-2 bg-gray-600 font-semibold mt-1 tracking-wide" style={{ textShadow: '1px 1px 3px #000' }}>Empowering Your American Dream</span>
+            <span className="text-sm text-gray-50 px-2 bg-gray-600 font-semibold mt-1 tracking-wide" style={{ textShadow: '1px 1px 3px #000' }}>Empowering Your American Dreams</span>
           </div>
           
           <div className="flex flex-col items-end gap-1">

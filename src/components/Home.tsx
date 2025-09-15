@@ -20,12 +20,12 @@ const Home: React.FC = () => (
             <li>EB-1B (Outstanding Researchers/Professors)</li>
             <li>O-1 (Individuals of Extraordinary Ability)</li>
           </ul>
-          <p className="text-[22px] text-gray-700 mb-2">
+          {/* <p className="text-[22px] text-gray-700 mb-2">
             <span className="font-bold">61,000+ Approvals:</span> Unmatched Insight into USCIS Trends. With more than 61,000 approvals in the EB-1A, EB-1B, EB-2 NIW, and O-1 categories, we offer unparalleled insight into how USCIS evaluates these petitions. Our vast case database enables us to track adjudication patterns and adapt strategies accordingly, providing our clients with real-time guidance informed by tens of thousands of successful cases.
-          </p>
+          </p> */}
         </div>
       </div>
-      <div className="grid md:grid-cols-3 gap-6 mb-10">
+      <div className="grid md:grid-cols-2 gap-6 mb-10">
         <div className="bg-[#e6fafd] border-l-4 border-[#0097b2] p-6 rounded shadow">
           <h2 className="text-xl font-bold text-[#0097b2] mb-2">Attorney-Led, Individually Tailored Petitions</h2>
           <p className="text-gray-700 text-[19px]">Each petition is prepared under the direct supervision of our experienced immigration attorneys. Every case is individually crafted to highlight your strongest qualifications and align with the latest adjudication trends.</p>
@@ -39,7 +39,7 @@ const Home: React.FC = () => (
           <p className="text-gray-700 text-[19px]">We are trusted by professionals from top universities, national laboratories, Fortune 500 companies, startups, and leading medical institutions. Most of our clients come to us through personal referrals.</p>
         </div>
       </div>
-      <div className="mb-10">
+      {/* <div className="mb-10">
         <h2 className="text-2xl font-bold text-[#0097b2] mb-6">Client Testimonials</h2>
         <div className="flex flex-col md:flex-row gap-6">
           <div className="flex bg-white border rounded shadow p-6 w-full md:w-1/2 flex-col relative">
@@ -86,7 +86,7 @@ const Home: React.FC = () => (
         <div className="text-right mt-4">
           <a href="/client_testimonials" className="text-[#0097b2] underline font-semibold">Read More Testimonials &rarr;</a>
         </div>
-      </div>
+      </div> */}
       <div className="mb-10">
         <h2 className="text-2xl font-bold text-[#0097b2] mb-2">Latest Information</h2>
         <ul className="pl-6 text-gray-800 space-y-1 text-[21px]">

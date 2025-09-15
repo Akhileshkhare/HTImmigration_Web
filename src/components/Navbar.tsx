@@ -87,7 +87,7 @@ const Navbar = () => {
         <div className="flex justify-between items-start pt-2">
           <div className="flex-shrink-0 flex flex-col items-center">
             <img className="h-20 w-auto" src="/logo.png" alt="Logo" />
-            <span className="text-sm text-gray-50 px-2 bg-gray-600 font-semibold mt-1 tracking-wide" style={{ textShadow: '1px 1px 3px #000' }}>Empowering Your American Dream</span>
+            <span className="text-sm text-gray-50 px-2 bg-gray-600 font-semibold mt-1 tracking-wide" style={{ textShadow: '1px 1px 3px #000' }}>Empowering Your American Dreams</span>
           </div>
           <div className="flex flex-col items-end gap-1">
            <div className="hidden md:flex flex-col items-left gap-2 mb-2">
@@ -100,13 +100,13 @@ const Navbar = () => {
               <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2"><path strokeLinecap="round" strokeLinejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9z" /></svg>
               Click Here to Submit Free Evaluation Request
             </button>
-            <div className="flex items-center gap-2 text-[#0096b1] text-xl font-semibold">
+            {/* <div className="flex items-center gap-2 text-[#0096b1] text-xl font-semibold">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2"><path strokeLinecap="round" strokeLinejoin="round" d="M3 5a2 2 0 012-2h2.28a2 2 0 011.94 1.52l.3 1.2a2 2 0 01-1.45 2.45l-.96.24a11.05 11.05 0 005.52 5.52l.24-.96a2 2 0 012.45-1.45l1.2.3A2 2 0 0121 16.72V19a2 2 0 01-2 2h-1C7.82 21 3 16.18 3 10V9a2 2 0 012-2z" /></svg>
               <span>+1 (888) 666-096911</span>
-            </div>
+            </div> */}
                   <div className="flex items-center gap-2 text-[#0096b1] text-xl font-semibold">
-  <div className="bg-yellow-100 border border-yellow-300 rounded px-4 py-2 text-yellow-900 text-sm flex flex-col items-center">
-    <span>If you want tax solutions,</span>
+  <div className="bg-yellow-100 border border-yellow-300 rounded px-4 py-2 text-yellow-900 text-sm flex flex-row items-center">
+    <span className="mr-2">If you want tax solutions,</span>
     <a
       href="https://www.httaxsolutions.com/"
       target="_blank"

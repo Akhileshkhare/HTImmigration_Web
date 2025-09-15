@@ -9,37 +9,38 @@ const Home: React.FC = () => (
         <img src="/home-page.png" alt="HT Immigration Solutions Logo" className="object-contain" />
         <div>
           <h1 className="text-4xl md:text-5xl font-extrabold text-[#0097b2] mb-4 leading-tight">
-            HT Immigration Solutions
+            HTImmigrationSolutions
           </h1>
           <p className="text-[22px] text-gray-700 mb-4">
-            HT Immigration Solutions is a U.S. immigration law firm dedicated to representing individuals, research institutions, and corporations across all 50 states in employment-based immigration matters, with a focus on I-140 immigrant petitions. We specialize exclusively in talent-based immigration categories and have a long-standing record of success in:
+            HTImmigrationSolutions is a U.S. immigration law firm with a focus on representing individuals, research institutions, and corporations across all 50 states in employment-based immigration petitions.
+          </p>
+          <p className="text-[22px] text-gray-700 mb-4">
+            Our Attorney, Anurag Nayak, himself being an immigrant who first came to the USA as a PHD student on F1 visa then worked on H1B visa and finally got his Green Card under EB-1B category. With personal experience, we understand the challenges faced by immigrants and offer unparalleled insight into how USCIS evaluates various immigration petitions. We especially specialize in talent-based immigration categories such as:
           </p>
           <ul className="list-disc pl-6 text-[21px] text-gray-800 mb-4">
             <li>EB-2 NIW (National Interest Waiver)</li>
             <li>EB-1A (Individuals of Extraordinary Ability)</li>
             <li>EB-1B (Outstanding Researchers/Professors)</li>
+            <li>EB-1C (Foreign Executives and Managers)</li>
             <li>O-1 (Individuals of Extraordinary Ability)</li>
           </ul>
-          <p className="text-[22px] text-gray-700 mb-2">
-            <span className="font-bold">61,000+ Approvals:</span> Unmatched Insight into USCIS Trends. With more than 61,000 approvals in the EB-1A, EB-1B, EB-2 NIW, and O-1 categories, we offer unparalleled insight into how USCIS evaluates these petitions. Our vast case database enables us to track adjudication patterns and adapt strategies accordingly, providing our clients with real-time guidance informed by tens of thousands of successful cases.
-          </p>
         </div>
       </div>
-      <div className="grid md:grid-cols-3 gap-6 mb-10">
+      <div className="grid md:grid-cols-2 gap-6 mb-10">
         <div className="bg-[#e6fafd] border-l-4 border-[#0097b2] p-6 rounded shadow">
           <h2 className="text-xl font-bold text-[#0097b2] mb-2">Attorney-Led, Individually Tailored Petitions</h2>
-          <p className="text-gray-700 text-[19px]">Each petition is prepared under the direct supervision of our experienced immigration attorneys. Every case is individually crafted to highlight your strongest qualifications and align with the latest adjudication trends.</p>
+          <p className="text-gray-700 text-[19px]">Our attorney directly consults with the client and every case is individually crafted to highlight the individual's qualification according to the immigration laws and the latest adjudication trends.</p>
         </div>
         <div className="bg-[#e6fafd] border-l-4 border-[#0097b2] p-6 rounded shadow">
           <h2 className="text-xl font-bold text-[#0097b2] mb-2">Approval or Refund®</h2>
-          <p className="text-gray-700 text-[19px]">For eligible cases, we offer our Approval or Refund® service. If your petition is not approved, we refund our attorney fee in full—an offer that reflects our confidence and commitment to your success.</p>
+          <p className="text-gray-700 text-[19px]">After evaluation, we provide Approval or Refund service for the eligible cases. If an Approval or Refund service eligible case is not approved, we will refund our attorney fee in full. This offer reflects our confidence in immigration laws and commitment to the success of your immigration petition.</p>
         </div>
-        <div className="bg-[#e6fafd] border-l-4 border-[#0097b2] p-6 rounded shadow">
+        {/* <div className="bg-[#e6fafd] border-l-4 border-[#0097b2] p-6 rounded shadow">
           <h2 className="text-xl font-bold text-[#0097b2] mb-2">Trusted by Thousands</h2>
           <p className="text-gray-700 text-[19px]">We are trusted by professionals from top universities, national laboratories, Fortune 500 companies, startups, and leading medical institutions. Most of our clients come to us through personal referrals.</p>
-        </div>
+        </div> */}
       </div>
-      <div className="mb-10">
+      {/* <div className="mb-10">
         <h2 className="text-2xl font-bold text-[#0097b2] mb-6">Client Testimonials</h2>
         <div className="flex flex-col md:flex-row gap-6">
           <div className="flex bg-white border rounded shadow p-6 w-full md:w-1/2 flex-col relative">
@@ -86,8 +87,8 @@ const Home: React.FC = () => (
         <div className="text-right mt-4">
           <a href="/client_testimonials" className="text-[#0097b2] underline font-semibold">Read More Testimonials &rarr;</a>
         </div>
-      </div>
-      <div className="mb-10">
+      </div> */}
+      {/* <div className="mb-10">
         <h2 className="text-2xl font-bold text-[#0097b2] mb-2">Latest Information</h2>
         <ul className="pl-6 text-gray-800 space-y-1 text-[21px]">
           <li><a href="#" className="text-[#0097b2] hover:underline">895 Approvals in March 2025 and 2,623 Approvals in 2025 for I-140 EB1A, EB1B, EB-2 NIW and O1 Petitions (2025-06-06)</a></li>
@@ -99,8 +100,8 @@ const Home: React.FC = () => (
         <div className="text-right mt-2">
           <a href="/latest_information" className="text-[#0097b2] underline font-semibold">Read More &rarr;</a>
         </div>
-      </div>
-      <div className="mb-10">
+      </div> */}
+      {/* <div className="mb-10">
         <h2 className="text-2xl font-bold text-[#0097b2] mb-2">Our Mission</h2>
         <div className='p-8'>
           <p className="text-gray-700 text-[21px] mb-2">With more than 61,000 EB-1A, EB-1B, EB-2 NIW and O-1 cases approved, we have first-hand information on the manner in which the USCIS adjudicates I-140 cases. Our firm’s huge database of successful cases gives you unprecedented insight into USCIS adjudication trends. We carefully analyze the data for all of our cases and apply the results of our analyses toward giving our clients up-to-date advice and adapting our strategies such that we remain on par with the ever-shifting landscape of immigration law in the U.S.</p>
@@ -111,7 +112,7 @@ const Home: React.FC = () => (
         <a href="/contact_us" className="inline-block bg-[#0097b2] text-white px-6 py-3 rounded shadow hover:bg-gray-700 font-semibold transition">Contact Us</a>
         <span className="mx-2">or</span>
         <a href="/free_evaluation" className="inline-block bg-white border border-[#0097b2] text-[#0097b2] px-6 py-3 rounded shadow hover:bg-gray-700 hover:text-white font-semibold transition">Free Evaluation</a>
-      </div>
+      </div> */}
     </div>
   </div>
 );

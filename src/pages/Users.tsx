@@ -13,6 +13,8 @@ interface User {
   contact?: string;
   address?: string;
   dob?: string;
+  pin?: string;
+  password?: string;
 }
 
 const defaultUser: Partial<User> = {
@@ -22,6 +24,8 @@ const defaultUser: Partial<User> = {
   email: '',
   role: 'client',
   status: 'active',
+  pin: '',
+  password: '',
 };
 
 const Users: React.FC = () => {
@@ -38,6 +42,15 @@ const Users: React.FC = () => {
   };
 
   useEffect(() => { fetchUsers(); }, []);
+
+  useEffect(() => {
+    if (showModal && modalMode === 'create') {
+      // Generate a 4-digit random PIN
+      const randomPin = Math.floor(1000 + Math.random() * 9000).toString();
+      setModalUser(prev => ({ ...prev, pin: randomPin }));
+    }
+    // Optionally, clear PIN on edit/view if needed
+  }, [showModal, modalMode]);
 
   const handleDelete = async (id: number) => {
     if (!window.confirm('Delete this user?')) return;
@@ -178,6 +191,32 @@ const Users: React.FC = () => {
                 <label className="block font-semibold">Status</label>
                 <input className="border p-2 rounded w-full" name="status" value={modalUser.status || ''} onChange={handleModalChange} disabled={modalMode === 'view'} />
               </div>
+              <div className="mb-2">
+                <label className="block mb-2 font-semibold text-gray-700">User PIN (4-digit)</label>
+                <input
+                  type="text"
+                  maxLength={4}
+                  name="pin"
+                  value={modalUser.pin || ''}
+                  onChange={handleModalChange}
+                  className="border p-2 rounded w-full text-center text-xl tracking-widest"
+                  readOnly={modalMode === 'view'}
+                  required
+                />
+              </div>
+              <div className="mb-2">
+                <label className="block font-semibold">Password</label>
+                <input
+                  className="border p-2 rounded w-full"
+                  name="password"
+                  type="password"
+                  value={modalUser.password || ''}
+                  onChange={handleModalChange}
+                  disabled={modalMode === 'view'}
+                  required={modalMode === 'create'}
+                />
+              </div>
+              
               {modalMode !== 'view' && (
                 <button className="bg-blue-600 text-white px-4 py-2 rounded mt-4" type="submit">{modalMode === 'create' ? 'Create' : 'Update'}</button>
               )}
